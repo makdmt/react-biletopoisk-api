@@ -13,7 +13,7 @@ app.use(function (req, res, next) {
 app.use(bodyParser.json());
 app.use('/api', api);
 
-app.listen(port, '3.75.158.163', function (err) {
+app.listen(port, function (err) {
   if (err) {
     console.log(err);
     return;
